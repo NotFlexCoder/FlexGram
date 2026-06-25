@@ -1,0 +1,11 @@
+{
+  "name": "flex-telegram-framework",
+  "description": "A lightweight, file-based Telegram bot framework with Firebase-backed state, auto command routing, and zero-import globals — built for fast development and easy deployment.",
+  "version": "1.0.1",
+  "author": "Flex Coder",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2"
+  }
+}
