@@ -298,56 +298,6 @@ declare global {
    * @returns any
    */
   var getBotProperty: (name: any) => any;
-  /**
-   * getUserData()
-   * @returns Promise<any>
-   */
-  var getUserData: () => Promise<any>;
-  /**
-   * setUserData(data)
-   * @param data - data
-   * @returns Promise<any>
-   */
-  var setUserData: (data: any) => Promise<any>;
-  /**
-   * updateUserData(fn)
-   * @param fn - fn
-   * @returns Promise<any>
-   */
-  var updateUserData: (fn: any) => Promise<any>;
-  /**
-   * reply(text, buttons)
-   * @param text - text
-   * @param [buttons] - buttons
-   * @returns any
-   */
-  var reply: (text: any, buttons?: any) => any;
-  /**
-   * ask(question, nextCommand, options)
-   * @param question - question
-   * @param nextCommand - nextCommand
-   * @param [options] - options
-   * @returns Promise<any>
-   */
-  var ask: (question: any, nextCommand: any, options?: any) => Promise<any>;
-  /**
-   * tryOrNotify(fn, errorText)
-   * @param fn - fn
-   * @param [errorText] - errorText
-   * @returns Promise<any>
-   */
-  var tryOrNotify: (fn: any, errorText?: any) => Promise<any>;
-  /**
-   * isAdmin()
-   * @returns any
-   */
-  var isAdmin: () => any;
-  /**
-   * sleep(ms)
-   * @param ms - ms
-   * @returns any
-   */
-  var sleep: (ms: any) => any;
   var API: API;
   var FLEX: FLEX;
   var TEMP: TEMP;
